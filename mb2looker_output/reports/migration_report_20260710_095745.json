@@ -1,0 +1,82 @@
+{
+  "generated_at": "20260710_095745",
+  "validation_attempts": 0,
+  "counts": {
+    "ok": 10,
+    "needs_review": 0,
+    "failed": 0,
+    "other": 0
+  },
+  "entities": [
+    {
+      "entity_type": "view",
+      "name": "order_items",
+      "status": "ok",
+      "output_path": "views/order_items.view.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "view",
+      "name": "orders",
+      "status": "ok",
+      "output_path": "views/orders.view.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "view",
+      "name": "products",
+      "status": "ok",
+      "output_path": "views/products.view.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "view",
+      "name": "users",
+      "status": "ok",
+      "output_path": "views/users.view.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "model",
+      "name": "migrated.model",
+      "status": "ok",
+      "output_path": "model/migrated.model.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "look",
+      "name": "average_order_value_over_time",
+      "status": "ok",
+      "output_path": "looks/average_order_value_over_time.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "look",
+      "name": "orders_by_status",
+      "status": "ok",
+      "output_path": "looks/orders_by_status.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "look",
+      "name": "total_orders",
+      "status": "ok",
+      "output_path": "looks/total_orders.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "look",
+      "name": "total_revenue_by_category_and_created_date",
+      "status": "ok",
+      "output_path": "looks/total_revenue_by_category_and_created_date.lkml",
+      "notes": ""
+    },
+    {
+      "entity_type": "look",
+      "name": "user_demographics",
+      "status": "ok",
+      "output_path": "looks/user_demographics.lkml",
+      "notes": ""
+    }
+  ]
+}
